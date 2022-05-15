@@ -1,0 +1,13 @@
+body{
+    background-color: blanchedalmond;
+}
+a{
+color: darkblue;    
+margin: 5%;
+}
+
+nav.ul.li.a:hover{
+
+    color:red;
+    transform: scale(1.5);
+}

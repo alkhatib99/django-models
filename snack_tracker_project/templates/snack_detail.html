@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}Snack | {{snack.name}}{% endblock %}
+
+
+{% block content %}
+<p>
+<table border="1" style="align-content:center; margin:auto;
+padding:auto;">
+    <tr>
+        <th> Name:{{snack.name}}</th>
+    </tr><br>
+    <tr>
+        <th> Description:{{snack.description}}</th>
+    </tr><br>
+    <tr>
+        <th> Purchaser:{{snack.purchaser}}</th>
+    </tr>
+</table>
+</p>
+
+{% endblock content %}
